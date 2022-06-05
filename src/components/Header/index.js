@@ -6,7 +6,7 @@ import Footer from "../Footer";
 import Nav from "../Nav";
 import Projects from "../Projects";
 
-function Portfolio() {
+function Header() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   function renderPage() {
@@ -36,4 +36,4 @@ function Portfolio() {
   )
 }
 
-export default Portfolio;
+export default Header;
