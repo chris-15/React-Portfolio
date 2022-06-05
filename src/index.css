@@ -5,3 +5,23 @@
 * {
     box-sizing: border-box;
 }
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.image-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+

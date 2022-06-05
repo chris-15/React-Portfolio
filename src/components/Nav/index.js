@@ -8,6 +8,15 @@ function Nav({ currentPage, handlePageChange }) {
       <ul className="flex pl-0 list-style-none">
       <li className="p-2">
         <a
+          className={currentPage === "Home" ? "underline": "underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out"}
+          href="#home"
+          onClick={() => handlePageChange("Home")}
+        >
+          Home
+        </a>
+      </li>
+      <li className="p-2">
+        <a
           className={currentPage === "About" ? "underline": "underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out"}
           href="#about"
           onClick={() => handlePageChange("About")}

@@ -7,7 +7,7 @@ import Nav from "../Nav";
 import Projects from "../Projects";
 
 function Portfolio() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("Home");
 
   function renderPage() {
     if (currentPage === "Home") {
@@ -28,8 +28,10 @@ function Portfolio() {
       <div>
 
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-
-          {renderPage()}
+          <main>
+            {renderPage()}
+          </main>
+          
       </div>
   )
 }
