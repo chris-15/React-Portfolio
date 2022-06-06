@@ -11,7 +11,8 @@ function About() {
       </br>
       <p>
         While in the bootcamp I have learned and worked with many technologies including:
-        <ul>
+      </p>
+      <ul>
           <li>HTML/CSS</li>
           <li>JavaScript</li>
           <li>React.js</li>
@@ -20,7 +21,6 @@ function About() {
           <li>MySQL</li>
           <li>NoSQL</li>
         </ul>
-      </p>
     </div>
   );
 }
