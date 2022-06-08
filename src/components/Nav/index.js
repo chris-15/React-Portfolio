@@ -10,12 +10,12 @@ function Nav({ currentPage, handlePageChange }) {
           {/* <!-- left elements --> */}
           <div className="flex items-center relative">
             {/* <!-- Name --> */}
-            <h2 className="text-white mr-4 text-4xl">Chris Sarmiento-Salas</h2>
+            <h2 className="text-white mr-4 text-5xl">Chris Sarmiento-Salas</h2>
           </div>
           {/* <!-- left elements --> */}
 
           {/* <!--right elements--> */}
-          <div className="text-3xl">
+          <div className="text-5xl">
             <button
               className="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
               type="button"
