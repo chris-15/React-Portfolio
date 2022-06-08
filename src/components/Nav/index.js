@@ -10,7 +10,7 @@ function Nav({ currentPage, handlePageChange }) {
           {/* <!-- left elements --> */}
           <div className="flex items-center relative">
             {/* <!-- Name --> */}
-            <h1 className="my-name mr-4 text-5xl">Chris Sarmiento-Salas</h1>
+            <h1 className="my-name mr-4 text-5xl"><a href="#home" onClick={() => handlePageChange("Home")}>Chris Sarmiento-Salas</a></h1>
           </div>
           {/* <!-- left elements --> */}
 
