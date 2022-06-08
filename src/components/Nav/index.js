@@ -5,19 +5,19 @@ import "tw-elements";
 function Nav({ currentPage, handlePageChange }) {
   return (
     <header>
-      <nav className="relative w-full flex flex-wrap items-center justify-between py-3 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
+      <nav className="relative w-full flex flex-wrap items-center justify-between py-3 navbar navbar-expand-lg navbar-light">
         <div className="container-fluid w-full flex flex-wrap items-center justify-between">
           {/* <!-- left elements --> */}
           <div className="flex items-center relative">
             {/* <!-- Name --> */}
-            <h2 className="text-white mr-4 text-5xl">Chris Sarmiento-Salas</h2>
+            <h2 className="mr-4 text-5xl">Chris Sarmiento-Salas</h2>
           </div>
           {/* <!-- left elements --> */}
 
           {/* <!--right elements--> */}
           <div className="text-5xl">
             <button
-              className="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+              className="navbar-toggler border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent1"
@@ -50,7 +50,7 @@ function Nav({ currentPage, handlePageChange }) {
                   <a
                     className={
                       currentPage === "Home"
-                        ? "nav-link text-white underline"
+                        ? "nav-link underline"
                         : "underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out"
                     }
                     href="#home"
@@ -63,7 +63,7 @@ function Nav({ currentPage, handlePageChange }) {
                   <a
                     className={
                       currentPage === "About"
-                        ? "nav-link text-white underline"
+                        ? "nav-link underline"
                         : "underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out"
                     }
                     href="#about"
@@ -76,7 +76,7 @@ function Nav({ currentPage, handlePageChange }) {
                   <a
                     className={
                       currentPage === "Work"
-                        ? "nav-link text-white underline"
+                        ? "nav-link underline"
                         : "underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out"
                     }
                     href="#work"
@@ -89,7 +89,7 @@ function Nav({ currentPage, handlePageChange }) {
                   <a
                     className={
                       currentPage === "Contact"
-                        ? "nav-link text-white underline"
+                        ? "nav-link underline"
                         : "underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out"
                     }
                     href="#contact"
