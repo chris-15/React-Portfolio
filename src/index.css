@@ -14,12 +14,20 @@ html, body {
 }
 
 body {
-    background-color: #0C1618;
-    color: #FAF4D3;
+    background-color: black;
+    color: #8B939C;
     margin: 0 auto;
     max-width: 90%;
 }
+/* 
+h1 {
+    color:#FF0035
+} */
 
+.my-name {
+    color:white
+
+}
 .image-container {
     width: 400px;
     height: 400px;

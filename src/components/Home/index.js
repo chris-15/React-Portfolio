@@ -9,7 +9,7 @@ function Home() {
         <img src={profilePicture} alt="Profile" className="profile-pic" />
       </div>
 
-      <p className="pl-6 text-3xl">Welcome! My name is Chris.</p>
+      <h1 className="pl-6 text-5xl">Welcome! My name is Chris.</h1>
     
     </section>
   );
