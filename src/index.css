@@ -19,10 +19,10 @@ body {
     margin: 0 auto;
     max-width: 90%;
 }
-/* 
-h1 {
-    color:#FF0035
-} */
+
+.footer {
+    color:#8B939C
+} 
 
 .my-name {
     color:white

@@ -31,7 +31,7 @@ function Header() {
           <main>
             {renderPage()}
           </main>
-          
+          <Footer></Footer>
       </div>
   )
 }
