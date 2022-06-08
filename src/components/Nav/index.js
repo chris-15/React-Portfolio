@@ -6,16 +6,16 @@ function Nav({ currentPage, handlePageChange }) {
   return (
     <header>
       <nav className="relative w-full flex flex-wrap items-center justify-between py-3 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
-        <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+        <div className="container-fluid w-full flex flex-wrap items-center justify-between">
           {/* <!-- left elements --> */}
           <div className="flex items-center relative">
             {/* <!-- Name --> */}
-            <h2 className="text-white mr-4">Chris Sarmiento-Salas</h2>
+            <h2 className="text-white mr-4 text-4xl">Chris Sarmiento-Salas</h2>
           </div>
           {/* <!-- left elements --> */}
 
           {/* <!--right elements--> */}
-          <div>
+          <div className="text-3xl">
             <button
               className="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
               type="button"
