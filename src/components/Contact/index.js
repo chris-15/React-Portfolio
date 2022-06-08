@@ -40,12 +40,12 @@ function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState)
+    console.log(formState);
   }
 
   return (
-    <section>
-      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md">
+    <section className="flex justify-center py-16">
+      <div className="w-1/2 p-6 bg-gray-500">
         <form onSubmit={handleSubmit}>
           <div className="form-group mb-6">
             <input
@@ -77,9 +77,9 @@ function Contact() {
             ></textarea>
           </div>
           {errorMessage && (
-              <div>
-                  <p className="error-text text-black">{errorMessage}</p>
-              </div>
+            <div>
+              <p className="error-text text-black">{errorMessage}</p>
+            </div>
           )}
           <button
             type="submit"
