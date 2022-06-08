@@ -3,16 +3,19 @@ import AllStarProfiles from "../../assets/images/AllstarProfiles.png";
 import NutritionHelper from "../../assets/images/NutritionHelper.png";
 import TechBlog from "../../assets/images/TechBlog.png";
 import WeatherDashboard from "../../assets/images/WeatherDashboard.png";
-
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 // using tw elements library for carousel
 import "tw-elements";
 
 function Projects() {
   return (
-    <section>
+    <section className="py-16">
+      <h1 className="text-5xl flex justify-center">
+        View Some of My Latest Work
+      </h1>
       <div
         id="carouselDarkVariant"
-        className="carousel slide carousel-fade carousel-dark relative"
+        className="carousel slide carousel-fade carousel-dark relative py-4"
         data-bs-ride="carousel"
       >
         {/* <!-- Indicators --> */}
@@ -43,6 +46,7 @@ function Projects() {
 
         {/* <!-- Inner --> */}
         <div className="carousel-inner relative w-full overflow-hidden">
+
           {/*  <!-- Single item --> */}
           <div className="carousel-item active relative float-left w-full">
             <img
@@ -50,11 +54,11 @@ function Projects() {
               className="block w-full"
               alt="AllStar Profiles Screenshot"
             />
-            <div className="carousel-caption hidden md:block absolute text-center">
-              <h5 className="text-xl">First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+            <div className="carousel-caption md:block absolute text-center text-6xl">
+              <div className="flex justify-center text-white">
+                <a href="https://infinite-taiga-75694.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FaExternalLinkAlt className="bg-black hover:bg-blue-500 p-2 mr-4" /></a>
+                <a href="https://github.com/chris-15/All-Star-Profiles-Project2" target="_blank" rel="noreferrer noopener"><FaGithub className="bg-black hover:bg-blue-500 p-2" /></a>
+              </div>
             </div>
           </div>
 
@@ -63,13 +67,13 @@ function Projects() {
             <img
               src={NutritionHelper}
               className="block w-full"
-              alt="AllStar Profiles Screenshot"
+              alt="Nutrition Helper Screenshot"
             />
-            <div className="carousel-caption hidden md:block absolute text-center">
-              <h5 className="text-xl">Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+            <div className="carousel-caption md:block absolute text-center text-6xl">
+              <div className="flex justify-center text-white">
+                <a href="https://chris-15.github.io/Nutrition-Helper-Project1/" target="_blank" rel="noreferrer noopener"><FaExternalLinkAlt className="bg-black hover:bg-blue-500 p-2 mr-4" /></a>
+                <a href="https://github.com/chris-15/Nutrition-Helper-Project1" target="_blank" rel="noreferrer noopener"><FaGithub className="bg-black hover:bg-blue-500 p-2" /></a>
+              </div>
             </div>
           </div>
 
@@ -80,11 +84,11 @@ function Projects() {
               className="block w-full"
               alt="Weather Dashboard Screenshot"
             />
-            <div className="carousel-caption hidden md:block absolute text-center">
-              <h5 className="text-xl">Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+             <div className="carousel-caption md:block absolute text-center text-6xl">
+              <div className="flex justify-center text-white">
+                <a href="https://chris-15.github.io/Weather-Dashboard-Weekly-Challenge6/" target="_blank" rel="noreferrer noopener"><FaExternalLinkAlt className="bg-black hover:bg-blue-500 p-2 mr-4" /></a>
+                <a href="https://github.com/chris-15/Weather-Dashboard-Weekly-Challenge6" target="_blank" rel="noreferrer noopener"><FaGithub className="bg-black hover:bg-blue-500 p-2" /></a>
+              </div>
             </div>
           </div>
           {/* <!-- Single item --> */}
@@ -94,11 +98,11 @@ function Projects() {
               className="block w-full"
               alt="Tech Blog Screenshot"
             />
-            <div className="carousel-caption hidden md:block absolute text-center">
-              <h5 className="text-xl">Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+            <div className="carousel-caption md:block absolute text-center text-6xl">
+              <div className="flex justify-center text-white">
+                <a href="https://young-reaches-69054.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FaExternalLinkAlt className="bg-black hover:bg-blue-500 p-2 mr-4" /></a>
+                <a href="https://github.com/chris-15/MVC-TechBlog-Weekly-Challenge14" target="_blank" rel="noreferrer noopener"><FaGithub className="bg-black hover:bg-blue-500 p-2" /></a>
+              </div>
             </div>
           </div>
         </div>
@@ -106,7 +110,7 @@ function Projects() {
 
         {/*  <!-- Controls --> */}
         <button
-          className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          className="font-black carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
           type="button"
           data-bs-target="#carouselDarkVariant"
           data-bs-slide="prev"
