@@ -34,5 +34,5 @@ body {
     height: 400px;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
