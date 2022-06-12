@@ -15,6 +15,10 @@
 
 The challenge this week was to create a single page application using React.js for my own portfolio to show off my work. Tailwind and Tailwind Elements were used to style the page along with some plain CSS. 
 
+Below is a preview of the deployed site:
+
+<img src="./src/assets/images/portfolioSS.png" width="600" height="400">
+
 ## Installation
 
 If you clone the repository to your machine, run the command `npm install` in order to install all needed npm packages.
