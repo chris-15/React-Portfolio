@@ -36,3 +36,13 @@ body {
     overflow: hidden;
     /* border-radius: 50%; */
 }
+
+@media screen and (max-width:400px ) {
+    .image-container {
+        width: auto;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        
+    }
+}
