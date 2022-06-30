@@ -1,7 +1,7 @@
 import React from "react";
 import AllStarProfiles from "../../assets/images/AllstarProfiles.png";
 import NutritionHelper from "../../assets/images/NutritionHelper.png";
-import TechBlog from "../../assets/images/TechBlog.png";
+import RentAFit from "../../assets/images/rent-a-fit.png"
 import WeatherDashboard from "../../assets/images/WeatherDashboard.png";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 // using tw elements library for carousel
@@ -47,6 +47,21 @@ function Projects() {
         {/* <!-- Inner --> */}
         <div className="carousel-inner relative w-full overflow-hidden">
 
+          {/* <!-- Single item --> */}
+          <div className="carousel-item relative float-left w-full">
+            <img
+              src={RentAFit}
+              className="block w-full"
+              alt="Rent-a-fit Screenshot"
+            />
+            <div className="carousel-caption md:block absolute text-center text-6xl">
+              <div className="flex justify-center text-white">
+                <a href="https://afternoon-forest-49656.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FaExternalLinkAlt className="bg-black hover:bg-blue-500 p-2 mr-4" /></a>
+                <a href="https://github.com/chris-15/Rent-A-Fit-Project3" target="_blank" rel="noreferrer noopener"><FaGithub className="bg-black hover:bg-blue-500 p-2" /></a>
+              </div>
+            </div>
+          </div>
+
           {/*  <!-- Single item --> */}
           <div className="carousel-item active relative float-left w-full">
             <img
@@ -91,20 +106,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* <!-- Single item --> */}
-          <div className="carousel-item relative float-left w-full">
-            <img
-              src={TechBlog}
-              className="block w-full"
-              alt="Tech Blog Screenshot"
-            />
-            <div className="carousel-caption md:block absolute text-center text-6xl">
-              <div className="flex justify-center text-white">
-                <a href="https://young-reaches-69054.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FaExternalLinkAlt className="bg-black hover:bg-blue-500 p-2 mr-4" /></a>
-                <a href="https://github.com/chris-15/MVC-TechBlog-Weekly-Challenge14" target="_blank" rel="noreferrer noopener"><FaGithub className="bg-black hover:bg-blue-500 p-2" /></a>
-              </div>
-            </div>
-          </div>
+          
         </div>
         {/* <!-- Inner --> */}
 
