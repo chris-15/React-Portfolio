@@ -47,12 +47,13 @@ function Projects() {
         {/* <!-- Inner --> */}
         <div className="carousel-inner relative w-full overflow-hidden">
 
-          {/* <!-- Single item --> */}
-          <div className="carousel-item relative float-left w-full">
+
+          {/*  <!-- Single item --> */}
+          <div className="carousel-item active relative float-left w-full">
             <img
               src={RentAFit}
               className="block w-full"
-              alt="Rent-a-fit Screenshot"
+              alt="Rent-A-Fit Screenshot"
             />
             <div className="carousel-caption md:block absolute text-center text-6xl">
               <div className="flex justify-center text-white">
@@ -62,12 +63,12 @@ function Projects() {
             </div>
           </div>
 
-          {/*  <!-- Single item --> */}
-          <div className="carousel-item active relative float-left w-full">
+          {/* <!-- Single item --> */}
+          <div className="carousel-item relative float-left w-full">
             <img
               src={AllStarProfiles}
               className="block w-full"
-              alt="AllStar Profiles Screenshot"
+              alt="All Star Profiles Screenshot"
             />
             <div className="carousel-caption md:block absolute text-center text-6xl">
               <div className="flex justify-center text-white">
@@ -106,6 +107,8 @@ function Projects() {
               </div>
             </div>
           </div>
+
+          
           
         </div>
         {/* <!-- Inner --> */}
