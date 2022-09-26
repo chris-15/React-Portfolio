@@ -37,6 +37,16 @@ body {
     /* border-radius: 50%; */
 }
 
+.project-card {
+    background-color: white ;
+    width: 50%;
+    
+}
+
+.project-image-container {
+    
+}
+
 @media screen and (max-width:400px ) {
     .image-container {
         width: auto;
