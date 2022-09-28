@@ -25,13 +25,13 @@ function Header() {
   const handlePageChange = (page) => setCurrentPage(page)
 
   return (
-      <div>
+      <div className="mainheader">
 
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
           <main>
             {renderPage()}
           </main>
-          <Footer></Footer>
+          {/* <Footer></Footer> */}
       </div>
   )
 }

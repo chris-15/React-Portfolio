@@ -20,6 +20,16 @@ body {
     max-width: 90%;
 }
 
+main {
+    flex:1
+}
+
+.mainheader {
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+}
+
 .footer {
     color:#8B939C
 } 
