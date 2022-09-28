@@ -12,18 +12,17 @@ function Projects() {
     <section className="py-16">
       <h1 className="text-5xl flex justify-center">
         View Some of My Latest Work
-
         <a
-        href="https://github.com/chris-15"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        <FaGithub className=" text-6xl hover:bg-blue-500 p-2" />
-      </a>
+          href="https://github.com/chris-15"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <FaGithub className=" text-6xl hover:bg-blue-500 p-2" />
+        </a>
       </h1>
 
-      {/* first project */}
-      <div className="project-container" id="project-container">
+      <div className="project-container flex flex-wrap justify-around" id="project-container">
+        {/* first project */}
         <div className="project-card">
           <div className="project-image-container">
             <img src={RentAFit} className="" alt="Rent-A-Fit Screenshot" />
@@ -40,7 +39,7 @@ function Projects() {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <FaExternalLinkAlt className= "text-6xl bg-black hover:bg-blue-500 p-2 mr-4" />
+                <FaExternalLinkAlt className="text-6xl bg-black hover:bg-blue-500 p-2 mr-4" />
               </a>
               <a
                 href="https://github.com/chris-15/Rent-A-Fit"
@@ -50,20 +49,22 @@ function Projects() {
                 <FaGithub className="text-6xl bg-black hover:bg-blue-500 p-2" />
               </a>
             </div>
-
           </div>
         </div>
-      </div>
 
-      {/* second project */}
-      <div className="project-container" id="project-container">
+        {/* second project */}
         <div className="project-card">
           <div className="project-image-container">
-            <img src={AllStarProfiles} className="" alt="AllStarProfiles Screenshot" />
+            <img
+              src={AllStarProfiles}
+              className=""
+              alt="AllStarProfiles Screenshot"
+            />
           </div>
           <div className="project-info">
             <p>
-              An MVC style web application where users can post their sports highlights to share with the world to gain exposure.
+              An MVC style web application where users can post their sports
+              highlights to share with the world to gain exposure.
             </p>
             <div className="flex justify-center">
               <a
@@ -71,7 +72,7 @@ function Projects() {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <FaExternalLinkAlt className= "text-6xl bg-black hover:bg-blue-500 p-2 mr-4" />
+                <FaExternalLinkAlt className="text-6xl bg-black hover:bg-blue-500 p-2 mr-4" />
               </a>
               <a
                 href="https://github.com/chris-15/All-Star-Profiles"
@@ -81,20 +82,22 @@ function Projects() {
                 <FaGithub className="text-6xl bg-black hover:bg-blue-500 p-2" />
               </a>
             </div>
-
           </div>
         </div>
-      </div>
 
-      {/* third project */}
-      <div className="project-container" id="project-container">
+        {/* third project */}
         <div className="project-card">
           <div className="project-image-container">
-            <img src={NutritionHelper} className="" alt="AllStarProfiles Screenshot" />
+            <img
+              src={NutritionHelper}
+              className=""
+              alt="AllStarProfiles Screenshot"
+            />
           </div>
           <div className="project-info">
             <p>
-              A web application where users can search for nutritional food information and search by zipcode for locations to purchase food.
+              A web application where users can search for nutritional food
+              information and search by zipcode for locations to purchase food.
             </p>
             <div className="flex justify-center">
               <a
@@ -102,7 +105,7 @@ function Projects() {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <FaExternalLinkAlt className= "text-6xl bg-black hover:bg-blue-500 p-2 mr-4" />
+                <FaExternalLinkAlt className="text-6xl bg-black hover:bg-blue-500 p-2 mr-4" />
               </a>
               <a
                 href="https://github.com/chris-15/Nutrition-Helper"
@@ -112,20 +115,22 @@ function Projects() {
                 <FaGithub className="text-6xl bg-black hover:bg-blue-500 p-2" />
               </a>
             </div>
-
           </div>
         </div>
-      </div>
 
-      {/* fourth project */}
-      <div className="project-container" id="project-container">
+        {/* fourth project */}
         <div className="project-card">
           <div className="project-image-container">
-            <img src={WeatherDashboard} className="" alt="WeatherDashboard Screenshot" />
+            <img
+              src={WeatherDashboard}
+              className=""
+              alt="WeatherDashboard Screenshot"
+            />
           </div>
           <div className="project-info">
             <p>
-              A weather dashboard web application where users can search fo the weather information of their favorite city.
+              A weather dashboard web application where users can search fo the
+              weather information of their favorite city.
             </p>
             <div className="flex justify-center">
               <a
@@ -133,7 +138,7 @@ function Projects() {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <FaExternalLinkAlt className= "text-6xl bg-black hover:bg-blue-500 p-2 mr-4" />
+                <FaExternalLinkAlt className="text-6xl bg-black hover:bg-blue-500 p-2 mr-4" />
               </a>
               <a
                 href="https://github.com/chris-15/Weather-Dashboard"
@@ -143,7 +148,6 @@ function Projects() {
                 <FaGithub className="text-6xl bg-black hover:bg-blue-500 p-2" />
               </a>
             </div>
-
           </div>
         </div>
       </div>
