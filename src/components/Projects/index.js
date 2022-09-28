@@ -10,7 +10,7 @@ import "tw-elements";
 function Projects() {
   return (
     <section className="py-16">
-      <h1 className="text-5xl flex justify-center">
+      <h1 className="text-5xl flex justify-center mb-5">
         View Some of My Latest Work
         <a
           href="https://github.com/chris-15"

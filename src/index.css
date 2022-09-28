@@ -41,8 +41,16 @@ body {
     background-color: white ;
     width: 300px;
     height:400px;
+    padding: 10px;
     margin-bottom: 20px;
-    
+}
+
+.project-info {
+    margin-top: 20px;
+}
+
+.project-info p {
+    margin-bottom: 20px;
 }
 
 .project-image-container {
