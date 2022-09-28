@@ -29,20 +29,22 @@ body {
 
 }
 
-.image-container {
+ .image-container {
     width: 400px;
     height: 400px;
     position: relative;
     overflow: hidden;
-    /* border-radius: 50%; */
-}
-
+    border-radius: 50%; 
+ }
 .project-card {
     background-color: white ;
     width: 300px;
     height:400px;
     padding: 10px;
     margin-bottom: 20px;
+}
+.project-card svg {
+    border-radius: 10px;
 }
 
 .project-info {
@@ -56,14 +58,4 @@ body {
 .project-image-container {
     overflow:hidden;
 
-}
-
-@media screen and (max-width:400px ) {
-    .image-container {
-        width: auto;
-        height: auto;
-        position: relative;
-        overflow: hidden;
-        
-    }
 }
