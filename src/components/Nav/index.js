@@ -52,7 +52,7 @@ function Nav({ currentPage, handlePageChange }) {
               className="collapse navbar-collapse flex-grow items-center"
               id="navbarSupportedContent1"
             >
-              <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+              <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto text-center">
                 <li className="nav-item p-2">
                   <a
                     className={
