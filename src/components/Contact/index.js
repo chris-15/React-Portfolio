@@ -37,59 +37,27 @@ function Contact() {
       setFormState({ ...formState, [e.target.name]: e.target.value });
     }
   }
-
-  function handleSubmit(e) {
+// not needed anymore because we are using getform.io
+ /*  function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
-  }
+  } */
 
   return (
-    <section className="flex justify-center py-16">
-      <div className="w-1/2 p-6 bg-gray-500">
-        <form onSubmit={handleSubmit}>
-          <div className="form-group mb-6">
-            <input
-              type="text"
-              defaultValue={name}
-              onBlur={handleChange}
-              name="name"
-              className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-              placeholder="Name"
-            />
-          </div>
-          <div className="form-group mb-6">
-            <input
-              type="email"
-              defaultValue={email}
-              name="email"
-              onBlur={handleChange}
-              className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-              placeholder="Email"
-            />
-          </div>
-          <div className="form-group mb-6">
-            <textarea
-              name="message"
-              defaultValue={message}
-              onBlur={handleChange}
-              className=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-              placeholder="Message"
-            ></textarea>
-          </div>
-          {errorMessage && (
-            <div>
-              <p className="error-text text-black">{errorMessage}</p>
-            </div>
-          )}
-          <button
-            type="submit"
-            className=" w-full px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Submit
-          </button>
-        </form>
+   <section className="w-full h-screen flex justify-center items-center ">
+    <form className="flex flex-col" method="POST" action="https://getform.io/f/1c0b62ce-3b87-4b95-9b8b-388347876616">
+      <div className="pb-8">
+        <p className="text-5xl">Contact Me!</p>
+        <p className="">Please sumbit the form below or email me - chris.sarm15@gmail.com</p>
       </div>
-    </section>
+      <input type="text" defaultValue={name} onBlur={handleChange} name="name" placeholder="Name" className="p-2"></input>
+      <input type="email" defaultValue={email} name="email" onBlur={handleChange} placeholder="Email" className="my-4 p-2"></input>
+      <textarea name="message" defaultValue={message} onBlur={handleChange} placeholder="Message" rows="10" className="p-2">
+      </textarea>
+      <button type="submit" className="border-2 px-4 py-3 my-3 mx-auto flex items-center hover:bg-blue-500">Submit</button>
+
+    </form>
+   </section>
   );
 }
 
