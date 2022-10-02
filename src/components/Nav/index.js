@@ -8,10 +8,17 @@ function Nav({ currentPage, handlePageChange }) {
       <nav className="relative w-full flex flex-wrap items-center justify-between py-3 navbar navbar-expand-lg navbar-light">
         <div className="container-fluid w-full flex flex-wrap items-center justify-between">
           {/* <!-- left elements --> */}
-          <div className="flex items-center relative">
+          <div className= "flex items-center md:hidden">
+            {/* <!-- Name --> */}
+            <h1 className="my-name mr-4 text-5xl"><a href="#home" onClick={() => handlePageChange("Home")}>CSS</a></h1>
+          </div>
+          
+          <div className="hidden md:flex items-center">
             {/* <!-- Name --> */}
             <h1 className="my-name mr-4 text-5xl"><a href="#home" onClick={() => handlePageChange("Home")}>Chris Sarmiento-Salas</a></h1>
           </div>
+
+         
           {/* <!-- left elements --> */}
 
           {/* <!--right elements--> */}
