@@ -13,7 +13,7 @@
 
 ## Description
 
-This is a single page application using React.js for my own portfolio to show off my work. Tailwind and Tailwind Elements were used to style the page along with some plain CSS. 
+This is a single page application created with  React.js for my own portfolio to show off my work. Tailwind and Tailwind Elements were used to style the page along with some plain CSS. 
 
 Below is a preview of the deployed site:
 
