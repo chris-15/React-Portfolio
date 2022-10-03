@@ -130,7 +130,7 @@ function Projects() {
           </div>
           <div className="project-info">
             <p>
-              A weather dashboard web application where users can search fo the
+              A weather dashboard web application where users can search for the
               weather information of their favorite city.
             </p>
             <div className="flex justify-center">
