@@ -10,12 +10,12 @@ function Nav({ currentPage, handlePageChange }) {
           {/* <!-- left elements --> */}
           <div className= "flex items-center md:hidden">
             {/* <!-- Name --> */}
-            <h1 className="my-name mr-4 text-5xl underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out"><a href="#home" onClick={() => handlePageChange("Home")}>CSS</a></h1>
+            <h1 className="my-name mr-4 text-5xl hover:underline transition duration-300 ease-in-out"><a href="#home" onClick={() => handlePageChange("Home")}>CSS</a></h1>
           </div>
           
           <div className="hidden md:flex items-center">
             {/* <!-- Name --> */}
-            <h1 className="my-name mr-4 text-5xl underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out"><a href="#home" onClick={() => handlePageChange("Home")}>Chris Sarmiento-Salas</a></h1>
+            <h1 className="my-name mr-4 text-5xl hover:underline transition duration-300 ease-in-out"><a href="#home" onClick={() => handlePageChange("Home")}>Chris Sarmiento-Salas</a></h1>
           </div>
 
          
