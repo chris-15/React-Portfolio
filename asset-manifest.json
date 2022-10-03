@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.045eb75e.css",
-    "main.js": "/React-Portfolio/static/js/main.261fa3cc.js",
+    "main.css": "/React-Portfolio/static/css/main.be76e5bb.css",
+    "main.js": "/React-Portfolio/static/js/main.50dee6f0.js",
     "static/media/WeatherDashboard.png": "/React-Portfolio/static/media/WeatherDashboard.07cf662606b17231af0a.png",
     "static/media/rent-a-fit.png": "/React-Portfolio/static/media/rent-a-fit.f2176716dabbb9849364.png",
     "static/media/AllstarProfiles.png": "/React-Portfolio/static/media/AllstarProfiles.41b4d65a4434e98024ad.png",
     "static/media/NutritionHelper.png": "/React-Portfolio/static/media/NutritionHelper.0fdf8a88305f91fbcfcb.png",
-    "static/media/chris_pic.jpg": "/React-Portfolio/static/media/chris_pic.6e0f89e362c0bc304805.jpg",
+    "static/media/chris2.jpeg": "/React-Portfolio/static/media/chris2.cef6a61e85c8110c84fb.jpeg",
+    "static/media/Sarmiento-Salas-Resume.pdf": "/React-Portfolio/static/media/Sarmiento-Salas-Resume.dd3d143e5c353fc15eba.pdf",
     "index.html": "/React-Portfolio/index.html",
-    "main.045eb75e.css.map": "/React-Portfolio/static/css/main.045eb75e.css.map",
-    "main.261fa3cc.js.map": "/React-Portfolio/static/js/main.261fa3cc.js.map"
+    "main.be76e5bb.css.map": "/React-Portfolio/static/css/main.be76e5bb.css.map",
+    "main.50dee6f0.js.map": "/React-Portfolio/static/js/main.50dee6f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.045eb75e.css",
-    "static/js/main.261fa3cc.js"
+    "static/css/main.be76e5bb.css",
+    "static/js/main.50dee6f0.js"
   ]
 }
