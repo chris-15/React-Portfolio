@@ -26,7 +26,7 @@ function Footer() {
         rel="noreferrer noopener"
         download
       >
-        <FaFileAlt className="text-6xl hover:bg-blue-500 p-2" />
+        <FaFileAlt className="text-6xl hover:bg-blue-500 p-2 animate-bounce" />
       </a>
 
     </footer>
