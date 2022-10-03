@@ -36,15 +36,17 @@ main {
 
 .my-name {
     color:white
-
 }
 
 .project-card {
-    background-color: white ;
     width: 300px;
-    height:400px;
-    padding: 10px;
+    height: 400px;
+    background-color: white;
     margin-bottom: 20px;
+}
+
+.project-card:hover {
+    box-shadow: 10px 25px 50px -12px #8B939C;
 }
 .project-card svg {
     border-radius: 10px;
@@ -56,6 +58,8 @@ main {
 
 .project-info p {
     margin-bottom: 20px;
+    padding: 0px 10px;
+    color: #8B939C;
 }
 
 .project-image-container {
