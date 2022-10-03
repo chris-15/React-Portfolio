@@ -17,7 +17,7 @@ This is a single page application created with  React.js for my own portfolio to
 
 Below is a preview of the deployed site:
 
-<img src="./src/assets/images/portfolioSS.png" width="600" height="400">
+<img src= "src/assets/images/deployedSS.png" width="600" height="400">
 
 ## Installation
 
