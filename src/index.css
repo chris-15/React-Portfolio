@@ -39,13 +39,6 @@ main {
 
 }
 
- .image-container {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%; 
- }
 .project-card {
     background-color: white ;
     width: 300px;
