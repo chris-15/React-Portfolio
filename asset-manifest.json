@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.9f59a6c5.css",
-    "main.js": "/React-Portfolio/static/js/main.65ffafcb.js",
+    "main.js": "/React-Portfolio/static/js/main.83d052b3.js",
     "static/media/WeatherDashboard.png": "/React-Portfolio/static/media/WeatherDashboard.07cf662606b17231af0a.png",
     "static/media/rent-a-fit.png": "/React-Portfolio/static/media/rent-a-fit.f2176716dabbb9849364.png",
     "static/media/AllstarProfiles.png": "/React-Portfolio/static/media/AllstarProfiles.41b4d65a4434e98024ad.png",
@@ -10,10 +10,10 @@
     "static/media/Sarmiento-Salas-Resume.pdf": "/React-Portfolio/static/media/Sarmiento-Salas-Resume.dd3d143e5c353fc15eba.pdf",
     "index.html": "/React-Portfolio/index.html",
     "main.9f59a6c5.css.map": "/React-Portfolio/static/css/main.9f59a6c5.css.map",
-    "main.65ffafcb.js.map": "/React-Portfolio/static/js/main.65ffafcb.js.map"
+    "main.83d052b3.js.map": "/React-Portfolio/static/js/main.83d052b3.js.map"
   },
   "entrypoints": [
     "static/css/main.9f59a6c5.css",
-    "static/js/main.65ffafcb.js"
+    "static/js/main.83d052b3.js"
   ]
 }
